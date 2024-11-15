@@ -4,6 +4,7 @@
 This project is about managing multiple Kubernetes clusters and deploying applications across them automatically using a method called GitOps. The idea is to keep the setup and configuration of your clusters and applications in Git (a version control system). This way, you can ensure that the state of your clusters is always in sync with what is stored in Git, making deployments faster and less error-prone.
 
 Key Components:
+
 1.Multiple Kubernetes Clusters:
 You have more than one Kubernetes cluster, which could be in different environments like dev, staging, or production, or even across different cloud providers or regions.
 
